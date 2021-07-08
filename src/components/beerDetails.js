@@ -1,5 +1,4 @@
 import React from 'react'
-import allBeers from './allBeers'
 import axios from 'axios'
 import Header from './header'
 

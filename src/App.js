@@ -7,6 +7,10 @@ import {
 import Homepage from './components/homePage'
 import Allbeers from './components/allBeers'
 import Beerdetails from './components/beerDetails'
+import Randombeer from './components/randomBeer'
+import Newbeer from './components/newBeer'
+
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,8 +22,8 @@ function App() {
         <Route exact path='/' component={Homepage} />
         <Route exact path='/beers' component={Allbeers} />
         <Route exact path='/beers/:id' component={Beerdetails} />
-        {/* <Route exact path='/random-beer' component={RandomBeer} />
-        <Route exact path='/new-beer' component={NewBeer} /> */}
+        <Route exact path='/random-beer' component={Randombeer} />
+        <Route exact path='/new-beer' component={Newbeer} />
       </Switch>
 
     </Router>
